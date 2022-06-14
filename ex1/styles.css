@@ -1,5 +1,6 @@
 .flex-container {
     display: flex;
+    /* flex-direction: column; sets direction vertical*/
 }
 
 .flex-container div {
@@ -7,4 +8,8 @@
     border: 4px solid brown;
     height: 100px;
     flex: 1;
+}
+
+.flex-container .two {
+    flex: 2 1 0%;
 }
