@@ -1,0 +1,40 @@
+/* nav ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+li {
+    border: 2px solid blue;
+    background-color: lightblue;
+} */
+
+/* nav ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+li {
+    flex: auto;
+    border: 2px solid blue;
+    background-color: lightblue;
+} */
+
+nav ul {
+    display: flex;
+    margin: 0 -10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+.push-right {
+    margin-left: auto;
+}
+
+li {
+    border: 2px solid black;
+    background-color: lightblue;
+}
